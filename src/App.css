@@ -1,0 +1,116 @@
+/* .Triffic_bg_container{
+  background-color: #86d2f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Triffic_light_container{
+  background-color: #1f1d41;
+  min-height: 400px;
+  min-width: 100px;
+  padding: 40px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Green_light_isActive,.Yellow_light_isActive,.Red_light_isActive{
+  background-color: #4b5069;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+}
+
+.green_light{
+  background-color: #199473;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+}
+
+.yellow_light{
+  background-color: #f7c948;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+}
+
+.red_light{
+  background-color: #cf1124;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+}
+
+.triffic_btn{
+  width: 145px;
+  height: 45px;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.Request{
+  background-color: #199473;
+}
+
+.Emergency{
+  background-color: #cf1124;
+}
+
+.countdown_timer{
+  background-color: #4b5069;
+  padding: 10px;
+} */
+
+.App {
+  text-align: center;
+}
+
+.traffic_light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.active {
+  border: 5px solid black;
+}
+
+.countdown_timer {
+  margin: 20px;
+}
+
+.pedestrian_button, .emergency_button {
+  margin: 10px;
+}
+
+
